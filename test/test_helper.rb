@@ -15,9 +15,9 @@ class ActiveSupport::TestCase
     !session[:user_id].nil?
   end
 
-  #def log_in_as(user)
-  #  session[:user_id] = user.id
-  #end
+  def log_in_as(user)
+    session[:user_id] = user.id
+  end
 
   # Add more helper methods to be used by all tests here...
 end
